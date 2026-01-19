@@ -10,7 +10,7 @@ import java.util.List;
 
 public class WordleDictionaryLoader {
 
-    PrintWriter printWriter;
+    private PrintWriter printWriter;
 
     public WordleDictionaryLoader(PrintWriter printWriter) {
         this.printWriter = printWriter;

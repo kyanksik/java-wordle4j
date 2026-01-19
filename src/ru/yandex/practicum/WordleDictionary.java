@@ -4,7 +4,7 @@ import java.util.*;
 
 public class WordleDictionary {
 
-    List<String> words;
+    private final List<String> words;
     private final Set<String> wordsSet;
 
 

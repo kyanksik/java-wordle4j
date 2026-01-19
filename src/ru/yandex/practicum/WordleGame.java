@@ -18,7 +18,7 @@ public class WordleGame {
 
     private final Set<Character> charsNotInWord = new HashSet<>();
 
-    Scanner scanner = new Scanner(System.in);
+    private Scanner scanner = new Scanner(System.in);
 
 
     public static final int WORD_LENGTH = 5;
